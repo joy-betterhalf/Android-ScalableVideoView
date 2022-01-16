@@ -1,12 +1,12 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 30
+    compileSdkVersion 31
 
     defaultConfig {
         applicationId "com.yqritc.scalablevideoview.sample"
-        minSdkVersion 30
-        targetSdkVersion 30
+        minSdkVersion 31
+        targetSdkVersion 31
         versionCode 5
         versionName "1.0.4"
     }
@@ -20,6 +20,6 @@ android {
 dependencies {
     compile project(':library')
 //    compile 'com.yqritc:android-scalablevideoview:1.0.4'
-    compile 'com.android.support:appcompat-v7:23.4.0'
-    compile 'com.android.support:recyclerview-v7:23.4.0'
+    compile 'androidx.appcompat:appcompat:1.4.1'
+    compile 'androidx.recyclerview:recyclerview:1.2.1'
 }
