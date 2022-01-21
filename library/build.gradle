@@ -9,7 +9,7 @@ repositories {
     maven { url "https://jitpack.io" }
 }
 
-group = 'com.github.MatrixFrog'
+group = 'com.github.joy-betterhalf'
 version = '1.0.4'
 
 android {
@@ -34,8 +34,8 @@ android {
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile 'com.android.support:appcompat-v7:30.0.0'
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.android.support:appcompat-v7:30.0.0'
 }
 
 afterEvaluate {
@@ -44,9 +44,9 @@ afterEvaluate {
             // Creates a Maven publication called "release".
             release(MavenPublication) {
                 from components.release
-                groupId = 'com.github.MatrixFrog'
+                groupId = 'com.github.joy-betterhalf'
                 artifactId = 'android-scalablevideoview'
-                version = '1.0.4'
+                version = '1.0.2'
             }
         }
     }
