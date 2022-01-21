@@ -3,14 +3,15 @@ package com.yqritc.scalablevideoview.sample;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+
 import android.view.Menu;
 import android.view.MenuItem;
 
 /**
- * Created by yqritc on 2015/06/18.
+ * Created by yqritc on 2015/06/18. Modified by Joy Patel Jan 22 2022
  */
 public class SampleActivity extends AppCompatActivity {
 
